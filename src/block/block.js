@@ -244,8 +244,6 @@ registerBlockType( 'cgb/block-stripe-block', {
 
 		const TagName = tagName;
 
-		console.log(classes);
-
 		return (
 			<TagName { ...blockProps }>
 				<div class="wp-block-stripe-block-inner">
